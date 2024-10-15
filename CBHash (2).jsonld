@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "CBHash"
+    },
+    "motivations": {
+      "@value": "\nI’ve been passionate about blockchain since 2015, but it was in 2021 that I truly found my place in the Cardano ecosystem, especially within its vibrant NFT community. Over the past three years, I’ve become deeply involved in Cardano, contributing to its growth and evolution, which has strengthened my belief in blockchain’s potential to transform industries and empower individuals.\n\nMy experiences in the ecosystem inspire me to become a Delegated Representative (DRep). I’ve organized in-person events for Cardano NFT projects and helped strengthen community bonds. As a co-founder of BeezHiveNFT and an ambassador for World Mobile, I’ve seen the value of connecting real-world relationships with blockchain initiatives, and I’m eager to continue this work on a larger scale."
+    },
+    "objectives": {
+      "@value": "As a candidate for Delegated Representative (DRep) in the Cardano Ecosystem, my goal is to ensure that all voices are heard—especially those of everyday participants like NFT collectors, degens, and investors. I aim to empower both modest and substantial ADA holders and advocate for the growth of projects building real businesses within the NFT space.\n\nMy mission is to represent collectors, investors, and project founders at any stage in their journey. With a strong focus on community, communication, and relationships, I believe these are essential tools for shaping the future of Cardano's governance.\n\nWhile I’m not a developer, my strength lies in connecting people, elevating ideas, and fostering collaboration. I am committed to representing the community's best ideas and proposals, ensuring a sustainable and inclusive future for Cardano. Together, we can move the ecosystem forward."
+    },
+    "paymentAddress": {
+      "@value": "addr1q8vssedqs636n8dgjp8phh0qjztrjc77p06l02tlxdqp692cd5m6k8acttj0x8078kfxzj2jq0gut343zja80jgalp6sak5jfp"
+    },
+    "qualifications": {
+      "@value": "During my time in the web3 and Cardano ecosystem, I’ve gained valuable insights into the power of community and collaboration. Working across multiple communities has given me a deep understanding of what drives engagement and long-term success in the blockchain space. As co-founder of BeezHiveNFT, I’ve experienced the challenges and opportunities of building a project, and as a World Mobile ambassador, I’ve advocated for decentralized solutions to connect the unconnected.\n\nOne of my most rewarding roles has been helping people understand and get involved in blockchain. Whether through IRL events or online, I prioritize demystifying the technology and fostering inclusivity. I want to use my experience to contribute meaningfully to Cardano’s governance, ensuring the voices of creators, collectors, investors, and everyday users are heard.\n\nI’m committed to leveraging my relationships and knowledge to help guide Cardano into the Age of Voltaire, advancing the ecosystem I deeply love. "
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "X Account"
+        },
+        "uri": {
+          "@value": "https://x.com/CNFTBTC"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "LinkedIn Profile"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/amariah-hash-47601668/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "BeezHive X Account"
+        },
+        "uri": {
+          "@value": "https://x.com/BeezHiveNFT"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "BeezHive Website"
+        },
+        "uri": {
+          "@value": "https://beezhive.io/"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "YouTube Account"
+        },
+        "uri": {
+          "@value": "https://www.youtube.com/@cbhashchat"
+        }
+      }
+    ]
+  }
+}
